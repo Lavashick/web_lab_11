@@ -68,7 +68,8 @@ $(document).ready(function() {
     $(".main-footer").attr("id", "foot")
     $("#foot").find("p:first").css("color", "red")
 
-
+    let info = $(".main-footer").html()
+    $(".main-img-section").after(info)
 
 
 
