@@ -51,6 +51,11 @@ $(document).ready(function() {
     $(".cards").after("<p>HI HI HI</p>")
     $(".cards").before("<p>HI HI HI</p>")
 
+    $(".cards-item:first").mouseenter(function() {
+        $(this).remove()
+    })
+
+
 
 
 
