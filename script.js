@@ -1,5 +1,9 @@
 $("#btn-f").hide()
 
-$(".main-img").click(function() {
-    $(".main - img").hide()
+$("p:first").click(function() {
+    $(this).hide()
+})
+
+$(".card-image").dblclick(function() {
+    $(this).hide()
 })
