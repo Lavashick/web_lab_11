@@ -51,8 +51,20 @@ $(document).ready(function() {
     $(".cards").after("<p>HI HI HI</p>")
     $(".cards").before("<p>HI HI HI</p>")
 
-    $(".cards-item:first").mouseenter(function() {
+    $(".cards-item:first").click(function() {
         $(this).remove()
+    })
+
+    $("img").hover(function() {
+            $(this).css("transform", "scale(1.1)")
+        },
+        function() {
+            $(this).css("transform", "scale(1)")
+        }
+    )
+
+    $(".cards-item:last-child").click(function() {
+        $(this).empty()
     })
 
 
