@@ -66,4 +66,8 @@ $(document).ready(function() {
 
     let info = $(".main-footer").html()
     $(".main-img-section").after(info)
+
+    $(function() {
+        $("#datepicker").datepicker();
+    });
 })
