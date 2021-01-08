@@ -69,5 +69,9 @@ $(document).ready(function() {
 
     $(function() {
         $("#datepicker").datepicker();
-    });
+    })
+
+    $(function() {
+        $('.draggable').draggable();
+    })
 })

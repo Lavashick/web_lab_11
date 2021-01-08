@@ -153,3 +153,12 @@ footer {
 #datepicker {
     margin-top: 20px;
 }
+
+.draggable {
+    background-color: rgb(170, 186, 133);
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    margin: 30px auto;
+    color: black !important;
+}
