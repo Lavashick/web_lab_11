@@ -45,6 +45,11 @@ $(document).ready(function() {
     let newText = "NEW NEW NEW NEW NEW" + text
     $(".description").find("p").text(newText).css("color", "grey")
 
+    $(".cards").append("<p>Append text</p>")
+    $(".cards").prepend("<p>Prepend text</p>")
+
+    $(".cards").after("<p>HI HI HI</p>")
+    $(".cards").before("<p>HI HI HI</p>")
 
 
 
