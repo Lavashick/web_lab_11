@@ -39,8 +39,6 @@ $(document).ready(function() {
         $(".header-card").hide()
     })
 
-    $(".main-footer").find("p:first").css("color", "red")
-
     let text = $(".description").find("p").text()
     let newText = "NEW NEW NEW NEW NEW" + text
     $(".description").find("p").text(newText).css("color", "grey")
@@ -66,6 +64,9 @@ $(document).ready(function() {
     $(".cards-item:last-child").click(function() {
         $(this).empty()
     })
+
+    $(".main-footer").attr("id", "foot")
+    $("#foot").find("p:first").css("color", "red")
 
 
 
