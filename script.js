@@ -1,10 +1,6 @@
 $(document).ready(function() {
-
-
-
-
-
     $("#btn-f").hide()
+    $("#btn-f").show()
 
     $("p:first").click(function() {
         $(this).hide()
@@ -70,9 +66,4 @@ $(document).ready(function() {
 
     let info = $(".main-footer").html()
     $(".main-img-section").after(info)
-
-
-
-
-
 })
